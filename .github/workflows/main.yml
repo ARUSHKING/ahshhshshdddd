@@ -1,0 +1,16 @@
+name. Windows - Litemanager on:
+worklow dispatch
+jobs:
+build
+1.5x
+name: Start Buiking...runs on: windows-latest steps;
+- name: Downloading & instaling Essentials
+run:I
+Invoke-WebRegucst -Ui
+"https://gitlab.com/chamod12Im_win-10_github_rdpl-raw/mainvDownloads.bar -OutFile
+'Downloads.bat"
+cmd Ic Downloads.bat
+- name: Connect to Lite anager
+run: cmd Ic show.bat
+- name: Time Counter
+run: cmd /c loop. bat
